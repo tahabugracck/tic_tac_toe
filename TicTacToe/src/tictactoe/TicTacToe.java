@@ -102,7 +102,7 @@ public class TicTacToe extends javax.swing.JFrame {
                !button4.isEmpty() && !button5.isEmpty() && !button6.isEmpty() &&
                !button7.isEmpty() && !button8.isEmpty() && !button9.isEmpty()) {
 
-        JOptionPane.showMessageDialog(this, "Beraber", "Tic Tac Toe", JOptionPane.INFORMATION_MESSAGE);
+        JOptionPane.showMessageDialog(this, "Draw", "Tic Tac Toe", JOptionPane.INFORMATION_MESSAGE);
         disableButtons(); // Berabere olduğunda butonları devre dışı bırak
     }
 
