@@ -58,6 +58,7 @@ public class TicTacToe extends javax.swing.JFrame {
 
 
     private void win() {
+        try {
 
         String button1 = jButton1.getText();
         String button2 = jButton2.getText();
@@ -108,6 +109,9 @@ public class TicTacToe extends javax.swing.JFrame {
 
     // Oyun bittikten sonra butonların durumunu kontrol et
     checkButtonStates();
+            } catch (Exception e) {
+            System.out.println("Error : " + e.getMessage());
+        }
 }
 
     
